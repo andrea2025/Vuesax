@@ -1,5 +1,4 @@
-
-    .whole_page {
+   .whole_page {
         display: grid;
         grid-template-columns: 210px auto 1px;
         grid-gap: 10px;
@@ -26,7 +25,7 @@
     
     .side__bar {
         max-width: 210px;
-        height: 1470px;
+        height: 1670px;
         background: #FFFFFF;
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.170509);
     }
@@ -39,8 +38,8 @@
     .main__section {
         background: #F9F9F9;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
-        /* height: 1470px;
-        max-width: 1232.25px; */
+        height: 1470px;
+        max-width: 1232.25px;
     }
     
     .dashboard {
@@ -249,7 +248,7 @@
     }
     .btn_block {
         width: 278.25px;
-        height: 42px;
+        height: 40px;
         background: #6F64F8;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
         border-radius: 6px;
@@ -320,10 +319,10 @@
     
     .gallery__images {
         /* background: url(/images/apple-watch.jpg) no-repeat; */
-        max-width: 278.25px;
-        height: 364.5px;
+        max-width: 268.25px;
+        height: 415px;
         background: #ffffff;
-    
+    /* SEND TO DEMOLA */
     }
     
     .cart_1 {
@@ -389,7 +388,7 @@
     
     .gg {
         display: flex;
-        justify-content: space-ev;
+        justify-content: space-even;
         background: #f9f9f9;
         max-width: 902.25px;
     }
@@ -399,13 +398,13 @@
         margin-top: 7px;
     }
     .apple-wath {
-        transform: translateY(-10%);
+        transform: translateY(-8%);
 
     }
     .speaker_img {
         padding-left: 6em;
         padding-bottom: 3em;
-        transform: translateY(10%);
+        transform: translateY(15%);
     }
     .iphone {
         padding-bottom: 3em;
@@ -428,21 +427,18 @@
    .cart {
     transform: translateY(2%);
    }
-    .ipad_pro {
-        transform: translateY(-10%);
-    }
+   
     .ipad_item {
         transform: translateY(50%);
     }
     .ipro_text {
         padding-top: 3em;
     }
-    .pod {
+    .pod,
+    .audio  {
         padding-top: 2.5em;
     }
-    .audio {
-        padding-top:2.5em;
-    }
+    
     .number_line {
         padding-top: 4em;
     }
@@ -452,10 +448,58 @@
     .footer_bar {
         transform: translateX(4%);
         padding-left: 20em;
-        /* transform: translateY(-100%); */
-      
+       
     }
     .image_foter {
         width: 352.5px;
         height: 30px;
     }
+    .pagination__container {
+        display: flex;
+        transform: translateX(29%);
+        margin-top: 1.5em;
+        margin-left: 9.2em;
+      }
+  
+      .pagination__prev,
+      .pagination__next {
+        background: #EDEDED;
+        padding:  1em;
+        border-radius: 50px;
+        width: 14px;
+        height: 14px;
+        display: flex;
+        justify-content:space-evenly;
+        align-content: center; 
+        
+    }
+   
+ .pagination__numbers {
+     background: #EDEDED;
+     margin: 0 1em;
+     padding: 0em 2em;
+     border-radius: 50px;
+     display: flex;
+    align-items: center;
+ }
+  
+      .pagination__numbers>span {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 21px;
+      }
+  
+      .pagination__numbers>span.purple {
+        background: #6F64F8;
+        color: #fff;
+        padding: 4px;
+      }
+  
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
