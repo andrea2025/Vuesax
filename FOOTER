@@ -1,0 +1,90 @@
+   <div class="d-flex justify-content-between">
+            <div class="pagination__container">
+                <div class="pagination__prev">
+                    <span>
+                      <a href="prev.html">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7 13L1 7L7 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                <div class="pagination__numbers">
+                  <span><a href="">1</a></span>
+                  <span><a href="">2</a></span>
+                  <span><a href="">3</a></span>
+                  <span><a href="">4</a></span>
+                  <span><a href="">5</a></span>
+                  <span class="purple"><a href="">6</a></span>
+                  <span><a href="">7</a></span>
+                  <span><a href="">8</a></span>
+                  <span><a href="">9</a></span>
+                  <span><a href="">10</a></span>
+                </div>
+                <div class="pagination__next">
+                  <span>
+                    <a href="next.html">
+                      <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+              <div class="mt-4 ml-3">
+                  <span>powered by</span>
+                  <img src="images/Algolia-logo.svg.png" alt="footer-logo">
+              </div>
+            </div>
+
+
+
+             .pagination__container {
+        display: flex;
+        transform: translateX(29%);
+        margin-top: 1.5em;
+        margin-left: 9.2em;
+      }
+  
+      .pagination__prev,
+      .pagination__next {
+        background: #EDEDED;
+        padding:  1em;
+        border-radius: 50px;
+        width: 14px;
+        height: 14px;
+        display: flex;
+        justify-content:space-evenly;
+        align-content: center; 
+        
+    }
+   
+ .pagination__numbers {
+     background: #EDEDED;
+     margin: 0 1em;
+     padding: 0em 2em;
+     border-radius: 50px;
+     display: flex;
+    align-items: center;
+ }
+  
+      .pagination__numbers>span {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 21px;
+      }
+  
+      .pagination__numbers>span.purple {
+        background: #6F64F8;
+        color: #fff;
+        padding: 4px;
+      }
+  
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
